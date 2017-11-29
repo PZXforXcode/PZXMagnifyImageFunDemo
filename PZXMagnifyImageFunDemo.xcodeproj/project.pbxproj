@@ -13,6 +13,8 @@
 		8964E8201FB53F2A000D5A85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8964E81F1FB53F2A000D5A85 /* Assets.xcassets */; };
 		8964E8231FB53F2A000D5A85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8964E8211FB53F2A000D5A85 /* LaunchScreen.storyboard */; };
 		8964E8261FB53F2A000D5A85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8964E8251FB53F2A000D5A85 /* main.m */; };
+		8964E82F1FB54011000D5A85 /* PZXMagnifyImageFun.m in Sources */ = {isa = PBXBuildFile; fileRef = 8964E82E1FB54011000D5A85 /* PZXMagnifyImageFun.m */; };
+		8964E8311FB54D2C000D5A85 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8964E8301FB54D2C000D5A85 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		8964E8221FB53F2A000D5A85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8964E8241FB53F2A000D5A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8964E8251FB53F2A000D5A85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8964E82D1FB54011000D5A85 /* PZXMagnifyImageFun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZXMagnifyImageFun.h; sourceTree = "<group>"; };
+		8964E82E1FB54011000D5A85 /* PZXMagnifyImageFun.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZXMagnifyImageFun.m; sourceTree = "<group>"; };
+		8964E8301FB54D2C000D5A85 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 		8964E8151FB53F2A000D5A85 /* PZXMagnifyImageFunDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8964E82C1FB53F92000D5A85 /* PZXMagnifyImageFun */,
 				8964E8161FB53F2A000D5A85 /* AppDelegate.h */,
 				8964E8171FB53F2A000D5A85 /* AppDelegate.m */,
 				8964E8191FB53F2A000D5A85 /* ViewController.h */,
@@ -70,6 +76,16 @@
 			);
 			path = PZXMagnifyImageFunDemo;
 			sourceTree = "<group>";
+		};
+		8964E82C1FB53F92000D5A85 /* PZXMagnifyImageFun */ = {
+			isa = PBXGroup;
+			children = (
+				8964E8301FB54D2C000D5A85 /* 1.png */,
+				8964E82D1FB54011000D5A85 /* PZXMagnifyImageFun.h */,
+				8964E82E1FB54011000D5A85 /* PZXMagnifyImageFun.m */,
+			);
+			path = PZXMagnifyImageFun;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -130,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8964E8231FB53F2A000D5A85 /* LaunchScreen.storyboard in Resources */,
+				8964E8311FB54D2C000D5A85 /* 1.png in Resources */,
 				8964E8201FB53F2A000D5A85 /* Assets.xcassets in Resources */,
 				8964E81E1FB53F2A000D5A85 /* Main.storyboard in Resources */,
 			);
@@ -142,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8964E82F1FB54011000D5A85 /* PZXMagnifyImageFun.m in Sources */,
 				8964E81B1FB53F2A000D5A85 /* ViewController.m in Sources */,
 				8964E8261FB53F2A000D5A85 /* main.m in Sources */,
 				8964E8181FB53F2A000D5A85 /* AppDelegate.m in Sources */,
@@ -281,6 +299,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 55V9K2V9Z4;
 				INFOPLIST_FILE = PZXMagnifyImageFunDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pengzuxin.PZXMagnifyImageFunDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 55V9K2V9Z4;
 				INFOPLIST_FILE = PZXMagnifyImageFunDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pengzuxin.PZXMagnifyImageFunDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

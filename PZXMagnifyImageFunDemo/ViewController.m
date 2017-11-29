@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
-
+#import "PZXMagnifyImageFun.h"
 @interface ViewController ()
+@property (strong, nonatomic) IBOutlet UIImageView *imageV;
+- (IBAction)TAP:(UITapGestureRecognizer *)sender;
 
 @end
 
@@ -26,4 +28,9 @@
 }
 
 
+- (IBAction)TAP:(UITapGestureRecognizer *)sender {
+    
+    [PZXMagnifyImageFun PZXMagnifyImageWithImageView:_imageV];
+    
+}
 @end
