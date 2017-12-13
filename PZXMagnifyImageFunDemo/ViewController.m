@@ -30,7 +30,10 @@
 
 - (IBAction)TAP:(UITapGestureRecognizer *)sender {
     
-    [PZXMagnifyImageFun PZXMagnifyImageWithImageView:_imageV];
+    if (_imageV.image) {
+        [PZXMagnifyImageFun PZXMagnifyImageWithImageView:_imageV];
+
+    }
     
 }
 @end
